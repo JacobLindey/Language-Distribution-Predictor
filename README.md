@@ -103,6 +103,7 @@ Post Simulation Results:
 3     OTH  0.163328  0.076126  0.041954  0.158649
 ```
 Image in web browser:
+
 ![](/assets/englishplot.png)
 
 ## Versioning
