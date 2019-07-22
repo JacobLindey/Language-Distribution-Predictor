@@ -1,0 +1,9 @@
+{
+  "data_dir": "./data/region_data_2017",
+  "regions": [
+    "USA",
+    "CAN",
+    "MEX",
+    "OTH"
+  ]
+}

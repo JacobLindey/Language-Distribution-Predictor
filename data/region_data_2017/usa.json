@@ -1,0 +1,19 @@
+{
+  "name": "USA",
+  "population": 327.2,
+  "births_per_mil": 0.012500,
+  "deaths_per_mil": 0.008200,
+  "lang_dist": {
+      "english": 0.702,
+      "spanish": 0.123,
+      "french": 0.003,
+      "chinese": 0.01
+  },
+  "emigration_rate": 0.01,
+  "regional_rates": {
+    "USA": 0,
+    "MEX": 0.10,
+    "CAN": 0.80,
+    "OTH": 0.10
+  }
+}

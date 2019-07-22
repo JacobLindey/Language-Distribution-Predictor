@@ -1,0 +1,19 @@
+{
+  "name": "MEX",
+  "population": 129.2,
+  "births_per_mil": 0.018300,
+  "deaths_per_mil": 0.005300,
+  "lang_dist": {
+      "english": 0.086,
+      "spanish": 0.983,
+      "french": 0,
+      "chinese": 0
+  },
+  "emigration_rate": 0.001,
+  "regional_rates": {
+    "USA": 0.98,
+    "MEX": 0,
+    "CAN": 0.01,
+    "OTH": 0.01
+  }
+}

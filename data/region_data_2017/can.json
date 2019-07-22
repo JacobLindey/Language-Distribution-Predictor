@@ -1,0 +1,19 @@
+{
+  "name": "CAN",
+  "population": 37.1,
+  "births_per_mil": 0.010300,
+  "deaths_per_mil": 0.008700,
+  "lang_dist": {
+      "english": 0.90,
+      "spanish": 0.008,
+      "french": 0.321,
+      "chinese": 0.091
+  },
+  "emigration_rate": 0.01,
+  "regional_rates": {
+    "USA": 0.90,
+    "MEX": 0.05,
+    "CAN": 0,
+    "OTH": 0.05
+  }
+}
