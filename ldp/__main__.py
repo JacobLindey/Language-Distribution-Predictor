@@ -15,8 +15,10 @@
     update: 7-20-2019
 """
 import click
+from data import data_saver
 from simulator import region_map
 from visualization import choropleth
+
 
 @click.command()
 @click.argument('file_name')
@@ -33,6 +35,7 @@ def main(file_name, sim_length, display_language):
             display_language (str): A string arg specifying which language data
                 to display in chart. If None no chart is displayed.
     """
+    # Print call parameters
     print(f"Running ldp simulation from {file_name} for {sim_length} cycles.")
     if display_language is not None:
         print(f"Displaying {display_language} data in choropleth chart",
@@ -43,9 +46,7 @@ def main(file_name, sim_length, display_language):
     map.load_regions()
 
     pre_df = map.dataframe  # store pre-sim data
-
     map.run_sim(sim_length)
-
     post_df = map.dataframe  # store post-si
 
     # if user requested a chart display a choropleth
@@ -61,6 +62,7 @@ def main(file_name, sim_length, display_language):
     print("\nPost Simulation Results:")
     print(post_df)
 
+    data_saver.save_to_file("out\outfile.txt", {"Pre-Sim Data":pre_df, "Post-Sim Data":post_df})
 
 if __name__ == "__main__":
     main()

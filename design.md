@@ -63,7 +63,10 @@ __Deadline:__ July 22, 2019
 __Released:__
   - [x] refactor backend
   - [x] single stage visualization
-  - [ ] Release 1.0 to GitHub
+  - [x] Prerelease to GitHub
+
+#### TODO:
+  - [ ] File Output
 
 ### Revisit
 If I revisit this project after release these are the features I'm interested in
