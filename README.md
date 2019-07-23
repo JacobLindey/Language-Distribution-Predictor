@@ -81,6 +81,9 @@ python ldp <file> <cycles> --display-language <lang> --output <location>
 -o \<location> or --output-file \<location>
 : (optional) directory/file-name to save output files in.
 
+-c
+: (optional) print output to console 
+
 ### Example
 ```
 python ldp ./data/regiondata2017.json 50 english
