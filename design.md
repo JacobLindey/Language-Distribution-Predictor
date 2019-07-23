@@ -59,14 +59,11 @@ H --> I(Stop)
 A list of planned development milestones follows, divided into four stages.
 
 ### Minimally Viable Product
-__Deadline:__ July 22, 2019  
-__Released:__
   - [x] refactor backend
   - [x] single stage visualization
   - [x] Prerelease to GitHub
-
-#### TODO:
-  - [ ] File Output
+  - [x] File Output
+  - [x] Release to GitHub
 
 ### Revisit
 If I revisit this project after release these are the features I'm interested in

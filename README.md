@@ -78,8 +78,8 @@ python ldp <file> <cycles> --display-language <lang> --output <location>
 -d \<lang> or --display-langauge \<lang>
 : (optional) name of language to display distribution data for in choropleth chart.
 
--o \<location> or --output \<location>
-: (optional) directory to save output files in.
+-o \<location> or --output-file \<location>
+: (optional) directory/file-name to save output files in.
 
 ### Example
 ```
